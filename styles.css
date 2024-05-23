@@ -69,6 +69,7 @@ hr {
 
 .logo-wrapper {
     width: 200px;
+    display: flex;
 }
 
 .logo {
@@ -91,4 +92,176 @@ nav > ul > li {
 nav > ul > li > a {
     text-decoration: none;
     color: white;
+}
+
+/*contacts forms*/
+
+body {
+    margin: 10px;
+    padding: 20px;
+    background-color: aliceblue;
+    color: black;
+    justify-content: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo-wrapper {
+    justify-content: center;
+    display: flex;
+    align-items: right;
+    height: 50px;
+}
+
+/* Main Content Styles */
+
+h1 {
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: aliceblue;
+    background-color: darkcyan;
+    opacity: 90%;
+}
+
+.contacts-info {
+    margin-top: 20px;
+    color: darkcyan;
+    font-weight: bold;
+    margin-right: 5px;
+    font-size: 1.5em;
+}
+
+.address iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Header Styles */
+header {
+    background-color:darkcyan;
+    color: aliceblue;
+    padding: 12px 15px;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 1200px;
+    margin: 20px 0px;
+    padding: 10px 20px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 10px darkcyan(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+h3 {
+    color: black;
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.image-container {
+    text-align: center;
+    margin: 5px 0;
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: aliceblue;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 60%;
+}
+
+/*courses*/
+.courses-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+article {
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.course-info li {
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    text-align: left;
+}
+strong {
+    display: block;
+    font-weight: bold;
+    color: black;
+}
+nav > ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    background-color: darkcyan;
+}
+nav > ul > li {
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
 }
